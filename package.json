@@ -13,5 +13,8 @@
   "scripts": {
     "build": "npm run build --workspace=client",
     "start": "node server/index.js"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.57.1"
   }
 }
